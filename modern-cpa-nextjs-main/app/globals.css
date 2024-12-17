@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "animate.css";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('/public/app/finance.jpg'); /* Add your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #183669; /* Tailwind's 'gray-800' */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #2C5282; /* Tailwind's 'indigo-800' */
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.bg-gradient-to-bottom {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  color: white;
+}
