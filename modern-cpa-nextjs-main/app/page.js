@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative text-center py-32 text-white"
+      <section className="relative text-center py-32 text-white mt-32"
       style={{
         backgroundImage: "url('/app/finance.jpg')", // Replace with your image path
         backgroundSize: "cover",
